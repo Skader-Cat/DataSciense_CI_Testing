@@ -1,13 +1,5 @@
 import matplotlib.pyplot as plt
-import pylab
 import seaborn as sns
-import numpy as np
-import pandas as pd
-import os
-
-
-
-
 
 def heatmap_builder(data, title, save_path = None, show = True, figsize=(10, 10), annot=False, fmt='.2g',
                     cmap='viridis', cbar=False, yticklabels = False, xticklabels = False, square = False):
